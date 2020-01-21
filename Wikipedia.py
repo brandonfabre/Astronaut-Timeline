@@ -1,8 +1,8 @@
-import wikipedia
+#import wikipedia
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import re
+#import re
 
 
 website_url = requests.get('https://en.wikipedia.org/wiki/Mark_Kelly').text
