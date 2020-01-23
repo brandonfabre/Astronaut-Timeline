@@ -42,5 +42,3 @@ def monthSwitcher(stringMonth):
         "December": 12
     }
     return str(switcher.get(stringMonth, "Invalid month"))
-
-grabPhotoDate()
