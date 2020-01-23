@@ -13,10 +13,10 @@ def get_encoded_faces():
     """
     encoded = {}
 
-    for dirpath, dnames, fnames in os.walk("./astronautFaces"):
+    for dirpath, dnames, fnames in os.walk("../astronautFaces"):
         for f in fnames:
             if f.endswith(".jpg") or f.endswith(".png"):
-                face = fr.load_image_file("astronautFaces/" + f)
+                face = fr.load_image_file("../astronautFaces/" + f)
                 encoding = fr.face_encodings(face)[0]
                 encoded[f.split(".")[0]] = encoding
 
@@ -26,7 +26,7 @@ def unknown_image_encoded(img):
     """
     encode a face given the file name
     """
-    face = fr.load_image_file("astronautFaces/" + img)
+    face = fr.load_image_file("../astronautFaces/" + img)
     encoding = fr.face_encodings(face)[0]
 
     return encoding
@@ -64,8 +64,8 @@ def classify_face(im):
 
         if name != "Unknown":
             face_names.append(name)
-            if not fileContains("astronautPictures/" + name + ".txt", im):
-                appendToFile("astronautPictures/" + name + ".txt", im)
+            if not fileContains("../astronautPictures/" + name + ".txt", im):
+                appendToFile("../astronautPictures/" + name + ".txt", im)
 
         for (top, right, bottom, left), name in zip(face_locations, face_names):
             # Draw a box around the face
@@ -83,12 +83,12 @@ def classify_face(im):
     #     if cv2.waitKey(1) & 0xFF == ord('q'):
     #         return face_names
 
-images = ["issPictures/1.jpg", "issPictures/2.jpg", "issPictures/3.jpg", "issPictures/4.jpg",
-          "issPictures/5.jpg", "issPictures/6.jpg", "issPictures/7.jpg", "issPictures/8.jpg",
-          "issPictures/9.jpg", "issPictures/10.jpg", "issPictures/11.jpg", "issPictures/12.jpg",
-          "issPictures/13.jpg", "issPictures/14.jpg", "issPictures/15.jpg", "issPictures/16.jpg",
-          "issPictures/17.jpg", "issPictures/18.jpg", "issPictures/19.jpg", "issPictures/20.jpg",
-          "issPictures/21.jpg", "issPictures/22.jpg"]
+images = ["../issPictures/1.jpg", "../issPictures/2.jpg", "../issPictures/3.jpg", "../issPictures/4.jpg",
+          "../issPictures/5.jpg", "../issPictures/6.jpg", "../issPictures/7.jpg", "../issPictures/8.jpg",
+          "../issPictures/9.jpg", "../issPictures/10.jpg", "../issPictures/11.jpg", "../issPictures/12.jpg",
+          "../issPictures/13.jpg", "../issPictures/14.jpg", "../issPictures/15.jpg", "../issPictures/16.jpg",
+          "../issPictures/17.jpg", "../issPictures/18.jpg", "../issPictures/19.jpg", "../issPictures/20.jpg",
+          "../issPictures/21.jpg", "../issPictures/22.jpg"]
 
 for image in images:
     print(classify_face(image))
