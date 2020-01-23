@@ -1,5 +1,5 @@
 import sqlite3
-from GrabFlickrImages import grabPhotoDate
+from FlickrImagesInfo import grabPhotoDate
 
 conn = sqlite3.connect('astronautsTimeline.db')
 
@@ -19,7 +19,7 @@ def createTables():
 
     # Creating Images table
     c.execute('''
-    CREATE TABLE IF NOT EXISTS Images 
+    CREATE TABLE IF NOT EXISTS Images
     (
     ID integer not null constraint Images_pk primary key autoincrement,
     FlickrID blob,
@@ -29,7 +29,7 @@ def createTables():
 
     # Creating AstronautAppearances table
     c.execute('''
-    CREATE TABLE IF NOT EXISTS AstronautAppearances 
+    CREATE TABLE IF NOT EXISTS AstronautAppearances
     (
     ImageID integer,
     AstronautID integer
@@ -47,7 +47,7 @@ def addAstronaut(astronautName):
     c = createCursor()
     c.execute(
     '''
-    INSERT INTO Astronauts (Name) 
+    INSERT INTO Astronauts (Name)
     VALUES (astronautName)
     WHERE NOT EXISTS (SELECT Name FROM Astronauts WHERE Name=astronautName);
     ''')
