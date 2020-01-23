@@ -1,3 +1,3 @@
 from FileIO import readFromFile
 
-names = readFromFile("astronautsNames.txt")
+names = readFromFile("astronautNames.txt")
