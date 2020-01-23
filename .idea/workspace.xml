@@ -2,234 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc0e5f7a-06e6-4ead-a594-c523896a31d5" name="Default Changelist" comment="Changed">
-      <change afterPath="$PROJECT_DIR$/SqliteDatabase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautFaces/Yuri Lonchakov.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautNames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Boris Morukov.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Carl Walz.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Catherine Coleman.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Chris Hadfield.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Christopher Ferguson.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Daniel Burbank.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Edward Fincke.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Edward Lu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Evgeny Tarelkin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Fyodor Yurchikhin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Jeffrey Williams.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Joseph Acaba.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Kent Rominger.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Maksim Surayev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Marcos Pontes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Michael Hopkins.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Michael Lopez-Alegria.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Oleg Kononenko.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Oleg Kotov.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Oleg Novitskiy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Pamela Melroy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Pavel Vinogradov.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Peggy Witson.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Richard Mastracchio.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Scott Altman.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Sergei Krikalev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Sergey Volkov.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Stephanie Wilson.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Stephen Frick.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Sunita Williams.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Terrence Wilcutt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/William Shepherd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Yuri Gidzenko.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Yuri Malenchenko.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astronautPictures/Yury Usachev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/issPictures/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingImageIDs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml-4.4.2.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml-4.4.2.dist-info/LICENSES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml-4.4.2.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml-4.4.2.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml-4.4.2.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml-4.4.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/ElementInclude.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/_elementpath.cpython-37m-darwin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/_elementpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/builder.cpython-37m-darwin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/cssselect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/doctestcompare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/etree.cpython-37m-darwin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/etree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/etree_api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/ElementSoup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/_diffcommand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/_html5builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/_setmixin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/clean.cpython-37m-darwin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/clean.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/defs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/diff.cpython-37m-darwin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/diff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/formfill.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/html5parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/soupparser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/html/usedoctest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/__init__.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/c14n.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/config.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/dtdvalid.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/etree_defs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/etreepublic.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/htmlparser.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libexslt/exslt.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libexslt/exsltconfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libexslt/exsltexports.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/DOCBparser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/HTMLparser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/HTMLtree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/SAX.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/SAX2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/c14n.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/catalog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/chvalid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/debugXML.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/dict.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/encoding.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/entities.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/globals.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/hash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/list.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/nanoftp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/nanohttp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/parserInternals.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/relaxng.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/schemasInternals.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/schematron.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/threads.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/tree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/uri.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/valid.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xinclude.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xlink.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlIO.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlautomata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlerror.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlexports.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlmemory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlmodule.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlreader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlregexp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlsave.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlschemas.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlschemastypes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlstring.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlunicode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlversion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xmlwriter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xpath.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xpathInternals.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxml/xpointer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/attributes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/documents.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/extensions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/extra.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/functions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/imports.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/keys.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/namespaces.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/numbersInternals.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/pattern.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/preproc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/security.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/templates.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/transform.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/variables.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/xslt.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/xsltInternals.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/xsltconfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/xsltexports.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/xsltlocale.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/libxslt/xsltutils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/lxml-version.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/relaxng.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/schematron.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/tree.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/uri.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/xinclude.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/xmlerror.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/xmlparser.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/xmlschema.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/xpath.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/includes/xslt.pxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/isoschematron/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/isoschematron/resources/rng/iso-schematron.rng" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/lxml.etree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/lxml.etree_api.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/objectify.cpython-37m-darwin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/pyclasslookup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/sax.cpython-37m-darwin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/sax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/lxml/usedoctest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/15207797149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/15207890820.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/29035156643.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/29237626931.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/29251039840.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/29386555345.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/29411266472.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/29694228834.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/29712924080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/29725699112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/29832941552.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/29946268795.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/30449047801.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/30781455084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/30835432703.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/31095101420.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/31462320635.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/42872214210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/5135054840.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/5135054928.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/5135054976.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/issPictures/5278070986.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML Astronaut Timeline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML Astronaut Timeline.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateTimeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateTimeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditAstronautPhotoNames.py" beforeDir="false" afterPath="$PROJECT_DIR$/EditAstronautPhotoNames.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileIO.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileIO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wikipedia.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astronautFaces/Ds Store.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astronautFaces/Yuri-Lonchakov Russia.Jpg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astronautsNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astronautsPictures/Boris Morukov.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astronautsPictures/Daniel Burbank.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astronautsPictures/Edward Lu.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astronautsPictures/Richard Mastracchio.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astronautsPictures/Scott Altman.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astronautsPictures/Terrence Wilcutt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astronautsPictures/Yuri Malenchenko.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/face_rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_rec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Boris Morukov.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Daniel Burbank.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Edward Lu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Richard Mastracchio.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Robert Curbeam.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Scott Altman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Sergei Krikalev.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Terrence Wilcutt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Thomas Jones.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Valeri Tokarev.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/William S. McArthur.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/William Shepherd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Yuri Gidzenko.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faces/Yuri Malenchenko.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testImages2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/issPictures/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/FaceRecognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/FaceRecognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/GrabFlickrImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/GrabFlickrImages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/SqliteDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/SqliteDatabase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingImageIDs.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GetPersonInfo.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python/FaceRecognition.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -269,8 +92,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FaceRec">
-    <configuration name="EditAstronautPhotoNames" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Python Interpreter" type="PythonConfigurationType" factoryName="Python">
       <module name="ML Astronaut Timeline" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,34 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EditAstronautPhotoNames.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FaceRec" type="PythonConfigurationType" factoryName="Python">
-      <module name="ML Astronaut Timeline" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FaceRecognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/FaceRecognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,10 +137,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.FaceRec" />
-      <item itemvalue="Python.EditAstronautPhotoNames" />
-    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -369,6 +166,7 @@
       <workItem from="1579477601133" duration="11538000" />
       <workItem from="1579645019656" duration="574000" />
       <workItem from="1579647348226" duration="8026000" />
+      <workItem from="1579759118145" duration="3107000" />
     </task>
     <task id="LOCAL-00001" summary="Added FlickrAPI key, created tasks, modified file names of astronaut photos">
       <created>1579481153455</created>
@@ -397,10 +195,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Changed astronautFaces extensions to .jpg" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="108" y="56" width="1071" height="697" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579727068725">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="414" y="177" width="1071" height="697" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579759499822">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579464641416" />
+    <state x="414" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579759499822" />
     <state x="108" y="56" width="1071" height="697" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1579727068725" />
     <state x="225" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1579482496361" />
     <state x="333" y="28" key="#face_rec" timestamp="1579477701403">
@@ -416,32 +214,32 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="256" y="90" key="DiffContextDialog/0.23.1280.777@0.23.1280.777" timestamp="1579645071748" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1579464640348">
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1579759498612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579464640348" />
-    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1579756108401">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="740" y="277" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579759498612" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579762382025">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579476427345" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579762382025" />
     <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579756108401" />
     <state width="1878" height="197" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1579482569703" />
-    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1579756108400">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1579762382025">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579476427345" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579762382025" />
     <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579756108400" />
     <state width="1878" height="197" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1579482569702" />
-    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1579756108400">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1579762382025">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579476427345" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579762382025" />
     <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579756108400" />
     <state width="1878" height="197" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1579482569700" />
-    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1579756108401">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1579762382025">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579476427345" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579762382025" />
     <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579756108401" />
     <state width="1878" height="197" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1579482569703" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1579645007123">
@@ -464,10 +262,10 @@
     </state>
     <state width="1878" height="357" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1579645007123" />
     <state width="1878" height="357" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1579480187846" />
-    <state x="283" y="78" key="SettingsEditor" timestamp="1579489585665">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="735" y="253" key="SettingsEditor" timestamp="1579759441638">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="735" y="253" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579464567247" />
+    <state x="735" y="253" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579759441638" />
     <state x="283" y="78" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1579489585665" />
     <state x="560" y="293" key="Vcs.Push.Dialog.v2" timestamp="1579481272302">
       <screen x="0" y="23" width="1920" height="1057" />
@@ -489,10 +287,11 @@
     <state x="625" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1579482090610" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ML_Astronaut_Timeline$face_rec.coverage" NAME="GUI Coverage Results" MODIFIED="1579644405391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_Astronaut_Timeline$EditAstronautPhotoNames.coverage" NAME="EditAstronautPhotoNames Coverage Results" MODIFIED="1579644479034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Astronaut_Timeline$FaceRecognition.coverage" NAME="Python Interpreter Coverage Results" MODIFIED="1579759503384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
     <SUITE FILE_PATH="coverage/ML_Astronaut_Timeline$GetPersonInfo.coverage" NAME="GetPersonInfo Coverage Results" MODIFIED="1579469536585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_Astronaut_Timeline$GUI.coverage" NAME="GUI Coverage Results" MODIFIED="1579645250839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_Astronaut_Timeline$face_rec.coverage" NAME="GUI Coverage Results" MODIFIED="1579644405391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_Astronaut_Timeline$GrabFlickrDates.coverage" NAME="FaceRec Coverage Results" MODIFIED="1579731147751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_Astronaut_Timeline$GUI.coverage" NAME="GUI Coverage Results" MODIFIED="1579645250839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

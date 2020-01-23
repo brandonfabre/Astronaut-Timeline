@@ -3,6 +3,7 @@ import os
 import cv2
 import numpy as np
 from FileIO import appendToFile, fileContains
+from SqliteDatabase import createTables, commitAndClose, addAstronaut, addImage, createCursor
 
 def get_encoded_faces():
     """

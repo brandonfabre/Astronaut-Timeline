@@ -9,3 +9,16 @@
 .navbar-inverse .navbar-brand {
   color: white;
 }
+
+#astronautRows {
+    padding: 20px;
+}
+
+.astronaut-photo {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.astronaut-photo:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

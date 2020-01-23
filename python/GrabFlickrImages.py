@@ -2,21 +2,17 @@ import requests
 import re
 from FileIO import readFromFile
 
-def grabPhotoDate():
-    imageIDs = readFromFile("trainingImageIDs.txt")
-
+def grabPhotoDate(imageID):
     photoURLPrefix = "https://www.flickr.com/photos/nasacommons/"
     albumID = "72157648186433655"
 
-    for id in imageIDs:
-        photoURL = photoURLPrefix + str(id) + '/in/album-' + albumID
+    photoURL = photoURLPrefix + str(imageID) + '/in/album-' + albumID
 
-        urlContents = requests.get(photoURL).text
+    urlContents = requests.get(photoURL).text
 
-        regexPattern = "class=\"date-taken-label\" title=\"Uploaded on (.*)\""
-        photoDate = re.findall(regexPattern, urlContents)[0]
-        print('Image id:' + id)
-        print(convertToNumericDate(photoDate))
+    regexPattern = "class=\"date-taken-label\" title=\"Uploaded on (.*)\""
+    photoDate = re.findall(regexPattern, urlContents)[0]
+    return convertToNumericDate(photoDate)
 
 def convertToNumericDate(strDate):
     strDate = strDate.replace(',', '')
