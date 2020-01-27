@@ -5,14 +5,13 @@ from FileIO import readFromFile
 def grabPhotoDate(imageID):
     photoURLPrefix = "https://www.flickr.com/photos/nasacommons/"
     albumID = "72157648186433655"
-
     photoURL = photoURLPrefix + str(imageID) + '/in/album-' + albumID
 
-    urlContents = requests.get(photoURL).text
+    urlHTMLContents = requests.get(photoURL).text
 
-    regexPattern = "class=\"date-taken-label\" title=\"Uploaded on (.*)\""
-    photoDate = re.findall(regexPattern, urlContents)[0]
-    return convertToNumericDate(photoDate)
+    regexPattern = "title=\"Uploaded on .*\">\s*Taken on (.*)\s*</span>"
+    photoDate = re.findall(regexPattern, urlHTMLContents)[0]
+    return str(photoDate)
 
 def convertToNumericDate(strDate):
     strDate = strDate.replace(',', '')
@@ -42,3 +41,5 @@ def monthSwitcher(stringMonth):
         "December": 12
     }
     return str(switcher.get(stringMonth, "Invalid month"))
+
+print(grabPhotoDate(29250982970))

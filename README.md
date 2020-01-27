@@ -5,12 +5,14 @@ A python and HTML project that creates a timeline of astronauts' lives while on 
 Open the home.html file in /html to visit our web page showing each astronaut. From there, click on an astronaut to see images they appear in during their time in the ISS, as well as their biography.
 
 ### Prerequisites
-To run FaceRecognition.py for yourself, install the following libraries:
+To run FaceRecognition.py for yourself, install the following python libraries:
 * dlib
 * cmake
 * face_recognition
 * numpy
 * opencv-python
+* beautifulsoup4
+* requests
 
 ### Built With
 * python
