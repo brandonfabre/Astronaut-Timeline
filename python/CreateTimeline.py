@@ -1,1 +1,0 @@
-from FileIO import readFromFile
