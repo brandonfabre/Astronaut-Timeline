@@ -3,7 +3,7 @@ import os
 import cv2
 import numpy as np
 from FileIO import appendToFile, fileContains
-from SqliteDatabase import createTables, commitAndClose, addAstronaut, addImage, createCursor
+# from SqliteDatabase import createTables, commitAndClose, addAstronaut, addImage, createCursor
 
 def get_encoded_faces():
     """
@@ -63,10 +63,9 @@ def classify_face(im):
         if matches[best_match_index]:
             name = known_face_names[best_match_index]
 
-        if name != "Unknown":
+        if astronautName != "Unknown":
             face_names.append(name)
-            if not fileContains("../astronautPictures/" + name + ".txt", im):
-                appendToFile("../astronautPictures/" + name + ".txt", im)
+            logAstronautAppearances(name, im)
 
         for (top, right, bottom, left), name in zip(face_locations, face_names):
             # Draw a box around the face
@@ -88,14 +87,16 @@ def classify_face(im):
 def screenshotClassifiedFacesResult(img, imgPath):
     cv.imwrite("../astronautPictures/"+str(imgPath)+".jpg", img)
 
-# TODO set images to the filepaths of all files in ../issPictures/
+def logAstronautAppearances(astronautName, toFile):
+    if not fileContains("../astronautPictures/" + astronautName + ".txt", toFile):
+        appendToFile("../astronautPictures/" + astronautName + ".txt", toFile)
 
-images = ["../issPictures/1.jpg", "../issPictures/2.jpg", "../issPictures/3.jpg", "../issPictures/4.jpg",
-          "../issPictures/5.jpg", "../issPictures/6.jpg", "../issPictures/7.jpg", "../issPictures/8.jpg",
-          "../issPictures/9.jpg", "../issPictures/10.jpg", "../issPictures/11.jpg", "../issPictures/12.jpg",
-          "../issPictures/13.jpg", "../issPictures/14.jpg", "../issPictures/15.jpg", "../issPictures/16.jpg",
-          "../issPictures/17.jpg", "../issPictures/18.jpg", "../issPictures/19.jpg", "../issPictures/20.jpg",
-          "../issPictures/21.jpg", "../issPictures/22.jpg"]
+def main():
+    imagePaths = os.listdir("../issPictures/")
 
-for image in images:
-    print(classify_face(image))
+    for imagePath in imagePaths:
+        imageName = os.fsdecode(imagePath)
+        print(classify_face(imageName))
+
+if __name__ == "__main__":
+    main()
