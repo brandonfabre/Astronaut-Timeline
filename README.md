@@ -25,7 +25,6 @@ Other libraries required for pulling data from Flickr, Wikipedia, and more are l
 
 ### Future Developments
 * Create dynamic pages for each astronaut using Javascript
-* Grab image and astronaut data from Flickr API
 * Store timeline information in database
 * Use Flickr API to grab photos and details
 
