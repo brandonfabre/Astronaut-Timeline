@@ -78,7 +78,7 @@ def classify_face(im):
             cv2.putText(img, name, (left -20, bottom + 15), font, 1.0, (255, 255, 255), 1)
 
         screenshotClassifiedFacesResult(img, im)
-        
+
     # Display the resulting image
     # while True:
     #     cv2.imshow('Image', img)
@@ -87,6 +87,8 @@ def classify_face(im):
 
 def screenshotClassifiedFacesResult(img, imgPath):
     cv.imwrite("../astronautPictures/"+str(imgPath)+".jpg", img)
+
+# TODO set images to the filepaths of all files in ../issPictures/
 
 images = ["../issPictures/1.jpg", "../issPictures/2.jpg", "../issPictures/3.jpg", "../issPictures/4.jpg",
           "../issPictures/5.jpg", "../issPictures/6.jpg", "../issPictures/7.jpg", "../issPictures/8.jpg",
