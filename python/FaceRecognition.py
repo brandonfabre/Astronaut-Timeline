@@ -16,12 +16,15 @@ def get_encoded_faces():
 
     for dirpath, dnames, fnames in os.walk("../astronautFaces"):
         for f in fnames:
-            if f.endswith(".jpg") or f.endswith(".png"):
+            if fileIsPicture(f):
                 face = fr.load_image_file("../astronautFaces/" + f)
                 encoding = fr.face_encodings(face)[0]
                 encoded[f.split(".")[0]] = encoding
 
     return encoded
+
+def fileIsPicture(filename):
+    return filename.endswith(".jpg") or filename.endswith(".png")
 
 def unknown_image_encoded(img):
     """
@@ -63,7 +66,7 @@ def classify_face(im):
         if matches[best_match_index]:
             name = known_face_names[best_match_index]
 
-        if astronautName != "Unknown":
+        if name != "Unknown":
             face_names.append(name)
             logAstronautAppearances(name, im)
 
@@ -85,7 +88,7 @@ def classify_face(im):
     #         return face_names
 
 def screenshotClassifiedFacesResult(img, imgPath):
-    cv.imwrite("../astronautPictures/"+str(imgPath)+".jpg", img)
+    cv2.imwrite("../astronautPictures/"+str(imgPath)+".jpg", img)
 
 def logAstronautAppearances(astronautName, toFile):
     if not fileContains("../astronautPictures/" + astronautName + ".txt", toFile):
@@ -96,7 +99,7 @@ def main():
 
     for imagePath in imagePaths:
         imageName = os.fsdecode(imagePath)
-        print(classify_face(imageName))
+        print(classify_face("../issPictures/" + imageName))
 
 if __name__ == "__main__":
     main()
