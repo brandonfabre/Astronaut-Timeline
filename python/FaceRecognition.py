@@ -35,7 +35,7 @@ def unknown_image_encoded(img):
 
     return encoding
 
-def classify_face(im):
+def classify_face(pathName):
     """
     will find all of the faces in a given image and label
     them if it knows what they are
@@ -47,7 +47,7 @@ def classify_face(im):
     faces_encoded = list(faces.values())
     known_face_names = list(faces.keys())
 
-    img = cv2.imread(im, 1)
+    img = cv2.imread(pathName, 1)
     #img = cv2.resize(img, (0, 0), fx=0.5, fy=0.5)
     #img = img[:,:,::-1]
 
@@ -68,7 +68,7 @@ def classify_face(im):
 
         if name != "Unknown":
             face_names.append(name)
-            logAstronautAppearances(name, im)
+            logAstronautAppearances(name, pathName)
 
         for (top, right, bottom, left), name in zip(face_locations, face_names):
             # Draw a box around the face
@@ -79,7 +79,7 @@ def classify_face(im):
             font = cv2.FONT_HERSHEY_DUPLEX
             cv2.putText(img, name, (left -20, bottom + 15), font, 1.0, (255, 255, 255), 1)
 
-        screenshotClassifiedFacesResult(img, im)
+        # screenshotClassifiedFacesResult(pathName, img)
 
     # Display the resulting image
     # while True:
@@ -87,19 +87,23 @@ def classify_face(im):
     #     if cv2.waitKey(1) & 0xFF == ord('q'):
     #         return face_names
 
-def screenshotClassifiedFacesResult(img, imgPath):
-    cv2.imwrite("../astronautPictures/"+str(imgPath)+".jpg", img)
+def screenshotClassifiedFacesResult(pathName, img):
+    fileName = str(pathName.split('.')[0])
+    extension = str(pathName.split('.')[1])
+    classifiedPathName = fileName + "_classified." + extension
+    cv2.imwrite(classifiedPathName, img)
 
-def logAstronautAppearances(astronautName, toFile):
-    if not fileContains("../astronautPictures/" + astronautName + ".txt", toFile):
-        appendToFile("../astronautPictures/" + astronautName + ".txt", toFile)
+def logAstronautAppearances(astronautName, contents):
+    if not fileContains("../astronautPictures/" + astronautName + ".txt", contents):
+        appendToFile("../astronautPictures/" + astronautName + ".txt", contents)
+        print(astronautName + " recognized in " + contents)
 
 def main():
     imagePaths = os.listdir("../issPictures/")
 
     for imagePath in imagePaths:
         imageName = os.fsdecode(imagePath)
-        print(classify_face("../issPictures/" + imageName))
+        classify_face("../issPictures/" + imageName)
 
 if __name__ == "__main__":
     main()

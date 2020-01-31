@@ -15,7 +15,7 @@ def fileContains(fileName, key):
                 return True
         return False
     except IOError:
-        print("File not found")
+        print("File " + fileName + " not found")
 
 def readFromFile(fileName):
     file = open(fileName, "r")
